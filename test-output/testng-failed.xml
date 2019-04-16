@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [VASU]">
+  <test name="Sample(failed)">
+    <classes>
+      <class name="com.selenium.testng.EmpReg">
+        <methods>
+          <include name="appLogout"/>
+          <include name="appLogin"/>
+          <include name="appClose"/>
+          <include name="appLaunch"/>
+        </methods>
+      </class> <!-- com.selenium.testng.EmpReg -->
+      <class name="com.selenium.testng.EmpList">
+        <methods>
+          <include name="empList"/>
+        </methods>
+      </class> <!-- com.selenium.testng.EmpList -->
+    </classes>
+  </test> <!-- Sample(failed) -->
+</suite> <!-- Failed suite [VASU] -->

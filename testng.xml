@@ -1,0 +1,10 @@
+
+<suite name="VASU">
+  <test name="Sample">
+    <classes>
+      <class name="com.selenium.testng.EmpReg"/>
+      <class name="com.selenium.testng.EmpList"/>
+      
+    </classes>
+  </test> 
+</suite> 
